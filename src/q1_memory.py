@@ -1,6 +1,8 @@
 import json
 from datetime import datetime
+from memory_profiler import profile
 
+@profile
 def q1_memory(file_path: str):
     """
     Process JSON data from a file containing tweet objects.
