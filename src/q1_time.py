@@ -1,6 +1,8 @@
 import json
 import pandas as pd
+from memory_profiler import profile
 
+@profile
 def q1_time(file_path: str):
     """
     Process JSON data from a file containing tweet objects.

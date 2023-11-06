@@ -1,5 +1,6 @@
 import json
 from datetime import datetime
+from memory_profiler import memory_usage
 from memory_profiler import profile
 
 @profile
